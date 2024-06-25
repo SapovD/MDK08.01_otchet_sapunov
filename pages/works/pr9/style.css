@@ -1,0 +1,85 @@
+.line li
+{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(218, 115, 175);
+}
+.links a
+{
+display: block;
+width: 150px;
+padding: 10px;
+margin: 10px;
+color: rgb(255,0,0);
+text-decoration: none;
+}
+.blocks 
+{
+    margin: 20px;
+}
+.blocks div
+{
+display: inline-block;
+padding: 10px;
+margin: 20px;
+background-color: rgb(255,0,0);
+}
+.non
+{
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255,0,0);
+    
+}
+.blocks div .non
+{
+    display: none;
+}
+.links-marker a
+{
+    display: block;
+    padding: 5px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+.links-marker
+{
+    list-style-type: none;
+}
+.post1
+{
+    background-color: rgb(255,0,0);
+    display: inline-block;
+}
+.post1 .image
+{
+    background: url(../pr9/11.jpg);
+    width: 100px;
+    height: 100px;
+    display: cover;
+    border: 3px dashed red;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+.post2
+{
+    background-color: red;
+    display: inline-block;
+}
+.post2 .image
+{
+    background: url(../pr9/33.jpg);
+    width: 100px;
+    height: 100px;
+    display: cover;
+    border: 3px dashed red;
+    display: inline-block;
+    float: right;
+}
+non {
+    display: none;
+}

@@ -1,0 +1,133 @@
+body{
+    margin: 50px;
+}
+.grid{
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+    grid-template-columns: repeat(4,300px) ;
+    grid-template-rows: repeat(3,260px) ;
+    justify-content: center;
+}
+.item1{
+    background-color: rgb(226, 226, 226);
+    grid-row: span 2;
+}
+.item2{
+    background-color: rgb(226, 226, 226);
+    grid-row: span 2;
+}
+.item3{
+    background-color: rgb(226, 226, 226);
+    grid-row: span 2;
+}
+.item4{
+    background-color: rgb(226, 226, 226);
+    grid-row: span 2;
+}
+.item5{
+    background-color: rgb(226, 226, 226);
+}
+.item6{
+    background-color:rgb(226, 226, 226);
+}
+.item7{
+    background-color:rgb(226, 226, 226);
+}
+.item8{
+    background-color:rgb(226, 226, 226);
+}
+.item9{
+    background-color: rgb(226, 226, 226);
+    grid-column: span 4;
+}
+.item10{
+    background-color: rgb(226, 226, 226);
+}
+.item11{
+    background-color: rgb(226, 226, 226);
+}
+.item12{
+    background-color:rgb(226, 226, 226);
+}
+.item101{
+    background: url(../../../../img/abfeb09d1c03b6c82fc653d9d653060b.png)no-repeat;
+    background-size: 150%;
+    width: 300px;
+    height: 250px;
+}
+.item201{
+    background: url(../../../../img/ba490541be7731774a15cf3a7c0df760.png)no-repeat;
+    background-size: 150%;
+    width: 300px;
+    height: 250px;
+    transform: translate(0px,-70px);
+}
+.item301{
+    background: url(../../../../img/67338acc507e44a25b02698b6a0925a5.png)no-repeat;
+    background-size: 125%;
+    width: 300px;
+    height: 250px;
+    transform: rotateY(180deg) translate(-50px,0px);
+}
+.item401{
+    background: url(../../../../img/87c952d2eb6b8c908ac2e682b2b582e3.png)no-repeat;
+    background-size: 150%;
+    width: 300px;
+    height: 300px;
+}
+.item901{
+    background: url(../../../../img/4b2cb43c884256b732c3b878c1c6cafa.jpg);
+    background-size: 100%;
+    width: 900px;
+    height: 260px;
+    margin-left: 360px;
+    mask-image: linear-gradient(to right, transparent 5%, black);
+    position: absolute;
+}
+
+.box{
+    width: 200px;
+    height: 90px;
+    margin-left: 20px;
+    padding: 0 ;
+    border-bottom: 1px solid;
+    border-color: rgba(175, 175, 175, 0.596);
+}
+.box1{
+    width: 200px;
+    height: 90px;
+    margin-left: 20px;
+    padding: 0 ;
+    margin-top: 10px;
+}
+.box2{
+    width: 600px;
+    height: 90px;
+    margin-left: 20px;
+    padding: 0 ;
+    margin-top: 20px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: orange;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
