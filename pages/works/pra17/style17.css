@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(211, 211, 211);
+}
+nav{
+    background: rgb(59, 122, 231);
+    color: white;
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+nav p{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+main{
+    margin: 0 auto;
+    max-width: 600px;
+}
+.lines div{
+    height: 5px;
+    width: 30px;
+    background: white;
+}
+.lines{
+    box-sizing: border-box;
+    border-left: 1px solid white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 60px;
+}
+.content{
+    max-width: 560px;
+    height: 800px;
+    background: white;
+    margin: 30px 0  30px 20px;
+}
+.with_f p{
+    color: rgb(211, 211, 211);
+    font-size: 22px;
+
+}
+.with_f{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    position: relative;
+}
+.with_f button{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 70px;
+    border: none;
+    background: linear-gradient( rgb(183, 192, 240),rgb(42, 75, 193) 98%);
+}
+#or{
+    position: absolute;
+    bottom: -27px;
+    padding: 15px;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 50%;
+    color: rgb(211, 211, 211);
+    background: white;
+}
+.log_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+}
+.log_in input{
+    border: 1px solid rgb(211, 211, 211);
+    height: 50px;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.log_in button{
+    border: 0;
+    background: rgb(24, 188, 24);
+    color: white;
+    height: 60px;
+    font-size: 28px;
+}
+.log_in input::placeholder{
+    color: rgb(211, 211, 211);
+}
+.log_in * {
+    width: 80%;
+}
+.log_in p{
+    color: rgb(211, 211, 211);
+    text-align: center;
+}
