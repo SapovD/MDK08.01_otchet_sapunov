@@ -1,0 +1,28 @@
+.container {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    position: relative;
+    }
+    
+    .ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50px; 
+    left: 50px; 
+    
+    animation: move 5s linear infinite; 
+    }
+    
+    @keyframes move {
+    0% {
+    offset-path: path('M50,50 C100,0 400,350 450,100'); 
+    }
+    100% {
+    offset-path: path('M50,50 C100,0 400,350 450,100'); 
+    offset-distance: 100%; 
+    }
+    }
